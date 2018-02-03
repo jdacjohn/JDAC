@@ -1,0 +1,27 @@
+# Do not track the following files
+
+# All log files
+*.log
+
+# All readme.txt Files
+readme.txt
+
+# Main WP configuration file
+blog/wp-config.php
+
+# Anything below here needs to be tailored to what makes sense for this site.
+blog/wp-content/advanced-cache.php
+blog/wp-content/backup-db/
+blog/wp-content/backups/
+blog/wp-content/blogs.dir/
+blog/wp-content/cache/
+blog/wp-content/upgrade/
+blog/wp-content/uploads/
+blog/wp-content/wp-cache-config.php
+blog/wp-content/plugins/hello.php
+
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
